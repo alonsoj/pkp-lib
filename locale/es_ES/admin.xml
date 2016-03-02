@@ -12,9 +12,7 @@
  
   -->
 
-<locale name="es_ES" full_name="Español (España)">
-	<message key="admin.systemInfo.settingName">Setting Name</message>
-	<message key="admin.systemInfo.settingValue">Setting Value</message>	
+<locale name="es_ES" full_name="Español (España)">	
 	<message key="admin.adminFunctions">Funciones administrativas</message>
 	<message key="admin.auth.confirmDelete">¿Seguro que quieres borrar esta fuente de autenticación definitivamente?</message>
 	<message key="admin.auth.create">Crear fuente de autenticación</message>
@@ -30,18 +28,10 @@
 	<message key="admin.dateInstalled">Fecha de instalación</message>
 	<message key="admin.displayConfigFileInstructions"><![CDATA[El contenido de tu configuración actualizada se muestra abajo. Para aplicar los cambios en la configuración tienes que abrir el fichero <tt>config.inc.php</tt> en un editor de texto adecuado y reemplazar el contenido existente por el del campo de texto mostrado más abajo.]]></message>
 	<message key="admin.displayNewSystemConfig">Mostrar nueva configuración</message>
-	<message key="admin.expireSessions">Caducidad de las sesiones</message>
-	<message key="admin.languages.download">Descargar idioma</message>
-	<message key="admin.languages.downloadLocales">Descargar idiomas</message>
-	<message key="admin.languages.download.cannotOpen">Cannot open language descriptor from PKP web site.</message>
-	<message key="admin.languages.download.cannotModifyRegistry">Cannot add the new locale to the locale registry file, typically "registry/locales.xml".</message>
-	<message key="admin.languages.cantDisable">Este idioma es el lenguaje principal del sitio. No se puede desactivar hasta que se seleccione otro idioma principal.</message>
-	
+	<message key="admin.expireSessions">Caducidad de las sesiones</message>	
 	<message key="admin.languages.confirmReload">¿Seguro que quieres volver a cargar este fichero de idioma? Esta acción eliminará cualquier información específica existente en el sitio como pueden ser las plantillas para correo electrónico personalizadas.</message>
 	<message key="admin.languages.installedLocales">Ficheros de idioma instalados</message>
-	<message key="admin.languages.installLanguages">Gestionar ficheros de idioma</message>
-	<message key="admin.languages.availableLocales">Idiomas disponibles</message>
-	<message key="admin.languages.installLocale">Insstar idioma</message>
+	<message key="admin.languages.installLanguages">Gestionar ficheros de idioma</message>		
 	<message key="admin.languages.installLocales">Instalar</message>
 	<message key="admin.languages.installNewLocales">Instalar nuevos ficheros de idioma</message>
 	<message key="admin.languages.languageSettings">Configuración de idioma</message>
@@ -50,17 +40,19 @@
 	<message key="admin.languages.uninstall">Desinstalar fichero de idiomas</message>
 	<message key="admin.phpInfo">Información PHP ampliada</message>
 	<message key="admin.scheduledTask">Tarea programada</message>
-	<message key="admin.scheduledTask.startTime">La tarea ha comenzado.</message>
-	<message key="admin.scheduledTask.stopTime">La tarea ha parado.</message>
-	<message key="admin.scheduledTask.noLog">La tarea no ha generado ningún log.</message>
-	<message key="admin.scheduledTask.downloadLog">Su OJS ha ejecutado y finalizado automáticamente esta tarea y puede descargar el log aquí: {$url}</message>
-	<message key="admin.scheduledTask.confirmClearLogs">¿Está seguro de borrar todos los logs de las tareas programadas?</message>
-	<message key="admin.scheduledTask.clearLogs">Borrar logs de ejecución las tareas programadas</message>
-	<message key="admin.scheduledTask.reviewReminder">Review reminder</message>
-	<message key="admin.scheduledTask.subscriptionExpiryReminder">Subscription expiry reminder</message>
+	<message key="admin.scheduledTask.startTime">Se ha iniciado la tarea.</message>
+	<message key="admin.scheduledTask.stopTime">Se ha detenido la tarea.</message>
+	<message key="admin.scheduledTask.noLog">La tarea no ha generado ningún registro.</message>
+	<message key="admin.scheduledTask.openAccessNotification">Notificación de acceso abierto</message>
+	<message key="admin.scheduledTask.downloadLog">Su OJS ha ejecutado y finalizado automáticamente esta tarea y puede descargar el registro aquí: {$url}</message>
+	<message key="admin.scheduledTask.confirmClearLogs">¿Está seguro de borrar todos los registros de las tareas programadas?</message>
+	<message key="admin.scheduledTask.clearLogs">Borrar registros de ejecución las tareas programadas</message>
+	<message key="admin.scheduledTask.reviewReminder">Recordatorio de revisión</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Recordatorio de caducidad de subscripción</message>
 	<message key="admin.server.apacheVersion">Versión Apache</message>
 	<message key="admin.server.dbDriver">Driver de bases de datos</message>
 	<message key="admin.server.dbVersion">Versión del servidor de bases de datos</message>	
+	<message key="admin.serverInformationDescription"><![CDATA[Sistema operativo básico y versiones del software del servidor. Haga clic en <span class="highlight">Información adicional del PHP</span> para ver información detallada sobre la configuración PHP del servidor.]]></message>
 	<message key="admin.serverInformation">Información del servidor</message>
 	<message key="admin.server.phpVersion">Versión PHP</message>
 	<message key="admin.server.platform">Plataforma SO</message>
@@ -71,16 +63,12 @@
 	<message key="admin.settings.form.contactEmailRequired">Se necesita la dirección de correo electrónico del contacto principal.</message>
 	<message key="admin.settings.form.contactNameRequired">Se necesita el nombre del contacto principal.</message>
 	<message key="admin.settings.form.minPasswordLengthRequired">Debes introducir una contraseña de 4 caracteres como mínimo.</message>
-	<message key="admin.settings.form.titleRequired">Es necesario introducir el título.</message>
-	<message key="admin.settings.defaultMetricDescription">
-		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in severeral contexts.
-		There are cases where a single usage statistic must be used, e.g. to display an orderd list of most-used submissions or to rank
-		search results. Please select one of the configured metrics as a default.
-	</message>
+	<message key="admin.settings.form.titleRequired">Es necesario introducir el título.</message>	
 	<message key="admin.settings.homeHeaderImage.altText">Logotipo del sitio</message>
 	<message key="admin.settings.homeHeaderImageInvalid">El formato de la imagen del logotipo no es válido. Los formatos válidos son .gif, .jpg, o .png.</message>
 	<message key="admin.settings.introduction">Introducción</message>
 	<message key="admin.settings.minPasswordLength">Longitud mínima de la contraseña</message>
+	<message key="admin.settings.oneStepReset">¿Utilizar reinicio de contraseña en un solo paso?</message>
 	<message key="admin.settings.oaiRegistration">Registrar sitio para índice (Metadata Harvesting)</message>
 	<message key="admin.settings.passwordCharacters">caracteres</message>
 	<message key="admin.settings.siteLanguage">Idioma</message>
@@ -91,7 +79,7 @@
 	<message key="admin.siteAdmin">Administración del sitio</message>
 	<message key="admin.siteManagement">Gestión del sitio</message>
 	<message key="admin.siteSettings">Configuración del sitio</message>
-	<message key="admin.siteSetup">Site Setup</message>
+	<message key="admin.siteSetup">Configuración del sitio</message>
 	<message key="admin.systemConfigFileReadError"><![CDATA[El fichero de configuración <tt>config.inc.php</tt> no existe, no se puede leer, o es no válido.]]></message>
 	<message key="admin.systemInformation">Información del sistema</message>
 	<message key="admin.versionBuild">Crear</message>
@@ -108,94 +96,11 @@
 	<message key="admin.version.upToDate">Su sistema está actualizado</message>
 	<message key="admin.version">Versión</message>
 	
-	<message key="admin.fileLoader.wrongBasePathLocation">Base path {$path} must be inside the public files directory.</message>
+	<message key="admin.fileLoader.wrongBasePathLocation">La ruta base {$path} tiene que estar dentro del directorio de archivos públicos.</message>
 	<message key="admin.fileLoader.pathNotAccessible">La carpeta {$path} no es un directorio o no se puede leer.</message>
-	<message key="admin.fileLoader.moveFileFailed">El archivo {$filename} no pudo moverse de {$currentFilePath} a {$destinationPath}</message>
-	<message key="admin.fileLoader.fileProcessed">El archivo {$filename} ha sido procesado y archivado.</message>
-	<message key="admin.fileLoader.emailSubject">File loader</message>
-
-	<message key="admin.copyAccessLogFileTool.usage">Copy the passed apache access log file(s), filtering the entries related with this installation,
-to the current files directory, inside the UsageStatsPlugin stage directory. Must run under user with enough privilegies to read access apache log files.
-
-This tool will only copy files that aren't already inside the usageStats file loader directories (stage, processing, archive, reject).
-
-Usage: {$scriptName} path/to/apache/log/file.log
-Usage (processing all files inside a directory): {$scriptName} path/to/apache/directory
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	</message>
-	<message key="admin.copyAccessLogFileTool.error.creatingFolder">Error: no ha podido crearse el directorio temporal {$tmpDir}</message>
-	<message key="admin.copyAccessLogFileTool.error.acessingFile">Error: el archivo {$filePath} no existe o no es legible.</message>
-	<message key="admin.copyAccessLogFileTool.error.copyingFile">Error: no se ha podido copiar el archivo de {$filePath} a {$tmpFilePath}</message>
-	<message key="admin.copyAccessLogFileTool.error.deletingFile">Error: no se puede borrar el archivo {$tmpFilePath}</message>
-	<message key="admin.copyAccessLogFileTool.warning.fileAlreadyExists">Aviso: el archivo {$filePath} ya existe dentro del directorio de estadísticas de uso.</message>
-	<message key="admin.copyAccessLogFileTool.success">Correcto: {$filePath} a {$destinationPath}</message>
+	<message key="admin.fileLoader.moveFileFailed">No se puede mover el archivo {$filename} de {$currentFilePath} a {$destinationPath}.</message>
+	<message key="admin.fileLoader.fileProcessed">El archivo {$filename} se ha procesado y archivado</message>	
+	<message key="admin.fileLoader">Cargador de archivos</message>
 	<message key="admin.error.utilExecutionProblem">La ejecución del programa "{$utilPath}" devolvió el siguiente error: {$output}</message>
-	<message key="admin.error.executingUtil">Error: no se ha podido ejectirar "{$utilPath}".  Compruebe el valor de {$utilVar} en config.inc.php.</message>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<message key="admin.error.executingUtil">Error: no se ha podido ejecutar "{$utilPath}". Compruebe el valor de {$utilVar} en config.inc.php.</message>
 </locale>
